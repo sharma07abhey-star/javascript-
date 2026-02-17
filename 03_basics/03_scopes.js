@@ -39,3 +39,16 @@ test();
 
 // console.log(d); // this will throw a ReferenceError because d is not defined
 // console.log(e); // this will also throw a ReferenceError because e is not defined
+
+
+function one(){
+    const username = "Abhey"
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    }
+    // console.log(website);
+    two();
+}
+
+one();
