@@ -5,7 +5,7 @@ console.log(`hello my name is ${name} and i live in ${city} `)
 const newstr = name.substring(1, 4);  // indexing 
 const newstr2 = name.slice(1, 4);  // slicing
 
-const newstr3 = name.trim();  // trimming
+const newstr3 = name.trim();  // trimming (removes extra spaces)
 // string methods 
 
 console.log(name[2]);
@@ -27,5 +27,5 @@ console.log(newstr3); // trim removes extra spaces
 name = name.replace("Abhey", "Parneet");
 console.log(name); 
 
-// replace does not change the original string 
+// replace does not change the original string
 // because strings are immutable in javascript

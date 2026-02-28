@@ -1,18 +1,20 @@
 // calculate cart price 
+
 function calculatecartprice(...num1){
     return num1;
 }
+// here spread operator is used to pass multiple arguments as an array
 console.log(calculatecartprice(100,200,300,400));
 
 
 // creating different functions 
 
 // 1.
-function returnsecondval(getarray){
+function return_secondval(getarray){
     return getarray[1];
 }
 const newarray = [1,2,3,4,5];
-console.log(returnsecondval(newarray));
+console.log(return_secondval(newarray));
 
 // 2.
 function loginusermessage(username = "abhey"){

@@ -13,18 +13,20 @@ console.log(addArrow(5, 3)); // Output: 8
 
 
 // ---------*---------
-
 const person = {
   name: "Abhey",
   
   // Normal Function
   sayNameNormal: function() {
     console.log("Normal:", this.name); 
+    // here this refers to the 'person' object
   },
 
   // Arrow Function
   sayNameArrow: () => {
-    console.log(`${this.username} ,welcome to website`);
+    console.log(`${this.name} , welcome to website`);
+    // here this refers to the global object (window in browsers)
+    // which means that 'name' is not defined in the global scope
   }
 };
 

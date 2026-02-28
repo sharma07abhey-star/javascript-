@@ -28,6 +28,7 @@ const obj1 = {1: "one", 2: "two", 3: "three"};
 const obj2 = {4: "four", 5: "five", 6: "six"};
 
 const mergedObj = {...obj1, ...obj2};
+// spread operator is used to merge two or more objects
 console.log(mergedObj); 
 
 // nesting objects, in this way we can group related data
@@ -38,3 +39,4 @@ console.log(obj3);
 console.log(Object.keys(mergedObj));
 console.log(Object.values(mergedObj));
 console.log(Object.entries(mergedObj));
+// entries returns an array of key-value pairs

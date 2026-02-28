@@ -9,7 +9,6 @@ console.log(result);
 console.log(add(5,"a"));
 console.log(add("a",null));
 
-
 // function login user message
 function loginuser(username){
     if(username == undefined){
@@ -19,4 +18,6 @@ function loginuser(username){
     return `${username} just logged in`;
 }
 console.log(loginuser("abhey"));
+console.log("\n");
+
 console.log(loginuser()); //undefined because username is not provided

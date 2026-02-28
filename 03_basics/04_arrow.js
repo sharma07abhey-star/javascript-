@@ -9,11 +9,11 @@ const user = {
     }
 }
 
-// user.welcomeMessage()
-// user.username = "Parneet"
-// user.welcomeMessage()
+user.welcomeMessage()
+user.username = "Parneet"
+user.welcomeMessage()
 
-// console.log(this);
+console.log(this);
 
 // in node environment this refers to global object
 
@@ -32,7 +32,7 @@ const user = {
 
 const chai = () => {
     let username = "Sharma"
-    console.log(this.username);
+    console.log(username);
 }
 chai();
 

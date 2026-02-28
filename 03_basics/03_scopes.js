@@ -38,6 +38,8 @@ function test() {
 test();
 
 // console.log(d); // this will throw a ReferenceError because d is not defined
+// it is defined inside test function which means it is not accessible outside the function
+
 // console.log(e); // this will also throw a ReferenceError because e is not defined
 
 
